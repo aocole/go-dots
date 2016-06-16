@@ -1,7 +1,4 @@
 export GOROOT=/usr/local/go
-export GOPATH=$HOME/work
+export GOPATH=$HOME
 for n in $GOROOT $GOPATH; do mkdir -p $n; done
 ...path-prepend $GOPATH/bin
-
-source ~/.../src/chgo/share/chgo/chgo.sh
-source ~/.../src/chgo/share/chgo/auto.sh
